@@ -1,0 +1,217 @@
+/* .box {
+  height: 400px;
+  width: 400px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+} */
+
+h1 {
+  /* text-align: center; */
+  /* text-transform: uppercase;
+  text-shadow: 5px 5px 10px gold; */
+}
+
+/* 
+.lorem1 {
+  font-family: "Open Sans", sans-serif;
+
+}
+
+.lorem2 {
+  font-family: "Roboto Mono", monospace;
+
+}
+
+.lorem3 {
+  font-family: "DM Sans", sans-serif;
+}
+
+.box {
+
+  background-image: url("https://images.unsplash.com/photo-1504006833117-8886a355efbf?q=80&w=870&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 2px solid rebeccapurple;
+
+}
+
+p {
+  color: blue;
+}
+
+.box {
+  height: 70vh;
+  width: 100vw;
+  border: 2px solid orange; */
+/* background-image: linear-gradient(red, blue, yellow, skyblue); */
+/* background-image: linear-gradient(to right, red, blue, yellow, skyblue); */
+/* background-image: linear-gradient(to right top, red, blue, yellow, skyblue); */
+/* background-image: linear-gradient(to right bottom, red, 
+  blue, yellow, skyblue); */
+
+/* background-image: linear-gradient(180deg, red, blue, yellow, skyblue); */
+
+
+/* background-image: repeating-linear-gradient(red, blue 10%, yellow 20%, skyblue 30%); */
+
+/* background-image: linear-gradient(to right, red, blue 10%, yellow 30%, skyblue); */
+
+
+
+/* background-image: radial-gradient(red, blue, yellow, black); */
+/* background-image: radial-gradient(circle, red, blue, yellow, black); */
+/* background-image: radial-gradient(circle, red 10%, blue 20%, yellow 30%, black); */
+
+
+/* box model  */
+/* } */
+
+/* 
+.box1 {
+  height: 150px;
+  background-color: brown;
+  border: 5px solid black;
+}
+
+.box2 {
+  height: 150px;
+  background-color: blue;
+  border: 5px solid yellow;
+  margin: 10px;
+  padding: 10px;
+}
+
+.box3 {
+  height: 150px;
+  background-color: yellow;
+  border: 5px solid wheat
+} */
+
+/* .h1 {
+  border: 5px dashed aqua; */
+/* border-style: dashed;
+  border-width: 10px; */
+/* border-top-width: 10px; */
+/* border-top-color: aqua; */
+
+/* border-color: yellow blue green purple; *
+}
+
+/* .h2 {
+  border-style: dotted;
+}
+
+.h3 {
+  border-style: double;
+}
+
+.h4 {
+  border-style: groove;
+}
+.h5{border-style: hidden;}
+.h6{border-style: ;}
+.h7{}
+.h8{}
+.h9{} */
+
+
+/* .box1 {
+  border-style: dotted;
+  border-width: 10px 20px;
+  border-color: aqua;
+  margin: 20px;
+  padding: 80px;
+}
+
+.box2 {
+  border-style: dashed;
+  border-width: 10px 20px 30px 40px;
+  border-color: red;
+  margin: 20px;
+  padding: 80px;
+}
+
+.box3 {
+  border-style: solid;
+  border-width: 5px;
+  border-color: blue;
+  margin: 20px;
+  padding: 80px;
+} */
+
+
+/* position 
+1- static (default )
+2- relative
+3- absolute 
+4- fixed
+5- stiky 
+
+
+*/
+/* 
+.container {
+  border: 5px solid red;
+  position: relative;
+}
+
+.box-1 {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  margin: 10px;
+} */
+/* 
+.box-2 {
+  height: 150px;
+  width: 150px;
+  background-color: red;
+  margin: 10px;
+  /* display: none; */
+/* visibility: hidden; */
+/* position: absolute; */
+/* position: fixed; 
+  position: sticky;
+  left: 200px;
+  top: 200px;
+} */
+/* 
+.box-3 {
+  height: 150px;
+  width: 150px;
+  background-color: blue;
+  margin: 10px;
+} */
+/*  
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+#container {
+  height: 80vh;
+  width: 80vw;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#box {
+  height: 300px;
+  background-color: aqua;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#btn {
+  padding: 10px 30px;
+} */

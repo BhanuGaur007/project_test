@@ -1,0 +1,176 @@
+.box {
+  height: 150px;
+  width: 150px;
+  border: 2px solid green;
+  background-color: bisque;
+  /* overflow: scroll; */
+  overflow: auto;
+}
+
+h1 {
+  border: 2px solid red;
+  float: left;
+}
+
+h2 {
+  border: 2px solid red;
+  float: right;
+}
+
+h3 {
+  border: 2px solid red;
+  clear: both;
+}
+
+.b1 {
+  border: 2px solid red;
+  height: 100px;
+  width: 100px;
+  display: inline-block;
+}
+
+.b2 {
+  border: 2px solid yellow;
+}
+
+.b3 {
+  border: 2px solid black;
+}
+
+
+
+
+/* p:first-child {
+  color: red;
+} */
+/* p:nth-child(even) {
+  color: red;
+} */
+/* .box-btn {
+  padding: 10px;
+  width: 100px;
+  
+border: 2px solid red;
+text-align: center;
+align-items: center;
+}
+
+.box-btn:hover {
+  background-color: blue;
+  color: white;
+  transition: 2s ease;
+  width: 102px;
+  border: 2px solid yellow;
+  padding: 12px;
+}
+
+*/
+
+
+
+.box-btn {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  /* animation-name: zoomanimation; */
+  animation-name: moveBox;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  position: relative;
+  animation-delay: 1s;
+  /* animation-direction: alternate; */
+  /* animation-direction: alternate-reverse; */
+
+
+  /* animation call short code short */
+  animation: moveBox 4s easy 1s infinite alternate;
+
+}
+
+
+@keyframes zoomanimation {
+  from {
+    background-color: red;
+    height: 120px;
+    width: 120px;
+  }
+
+  to {
+    background-color: blueviolet;
+    height: 140px;
+    width: 140px;
+  }
+}
+
+@keyframes example {
+  0% {
+    background-color: yellow;
+  }
+
+  25% {
+    background-color: blueviolet;
+  }
+
+  50% {
+    background-color: tomato;
+  }
+
+  75% {
+    background-color: darkolivegreen;
+  }
+
+  100% {
+    background-color: darkseagreen;
+  }
+}
+
+@keyframes moveBox {
+  from {
+    left: 0px;
+    background-color: red;
+  }
+
+  to {
+    left: 200px;
+    background-color: blueviolet;
+  }
+}
+
+.box-btn-1 {
+  text-align: center;
+  color: white;
+  border: 2px solid red;
+  width: 100px;
+  padding: 10px;
+  position: relative;
+  animation-name: blinkBox;
+  animation-delay: 2s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  background-color: red;
+  animation-timing-function: ease;
+
+
+
+}
+
+
+@keyframes blinkBox {
+  from {
+    background-color: yellow;
+    left: 0px;
+    top: 0px;
+
+    border: 2px solid blue;
+  }
+
+  to {
+
+    top: 70vh;
+    left: 80%;
+    border: 2px solid red;
+    background-color: blueviolet;
+
+  }
+}
